@@ -21,4 +21,6 @@ then
 
 fi
 
+brew bundle install --global
+
 exit 0
