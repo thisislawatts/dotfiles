@@ -81,4 +81,5 @@ zinit ice depth=1;
 
 setopt auto_cd
 
+export STARSHIP_CONFIG=~/.dotfiles/zsh/starship.toml
 eval "$(starship init zsh)"
