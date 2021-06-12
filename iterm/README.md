@@ -1,0 +1,1 @@
+iterm2 > preferences > Other actions… > Import JSON Profile
