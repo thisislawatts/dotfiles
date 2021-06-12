@@ -8,11 +8,13 @@ brew "bat"
 brew "composer"
 brew "harfbuzz"
 brew "ffmpeg"
+brew "fnm"
 brew "fzf"
+brew "gh"
 brew "git"
 brew "httpie"
 brew "jq"
-brew "nvm"
+brew "mas"
 brew "pipenv"
 brew "pyenv"
 brew "rsync"
@@ -42,3 +44,10 @@ cask "visual-studio-code"
 cask "vlc"
 cask "whatsapp"
 cask "zoom"
+mas "Flow", id: 1423210932
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Todoist", id: 585829637
