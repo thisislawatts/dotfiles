@@ -11,8 +11,9 @@ alias gac='git add -A && git commit -m'
 alias gb='git branch'
 alias gc='git commit'
 alias gca='git commit -a'
-alias gcb='git copy-branch-name'
 alias ge='git-edit-new'
 alias gco='git checkout'
 alias gst='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
 alias gplz='git push --force-with-lease'
+
+alias gcb='git branch | fzf | cut -c 3- | xargs git checkout'
